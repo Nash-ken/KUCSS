@@ -18,7 +18,7 @@
 
 @layer components {
   nav {
-    @apply sticky top-0 h-12 border-b border-border;
+    @apply fixed z-10 top-0 left-0 right-0 px-6 h-16 border-b border-border bg-background flex items-center;
   }
 
   main {

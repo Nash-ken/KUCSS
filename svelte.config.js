@@ -17,7 +17,7 @@ const config = {
       strict: true,
     }),
     paths: {
-      base: process.argv.includes("dev") ? "" : "/KUCSS",
+      base: process.argv.includes("dev") ? "" : process.env.BASE_PATH,
     },
     alias: {
       "@components": path.resolve("src/lib/components"),

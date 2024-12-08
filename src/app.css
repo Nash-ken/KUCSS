@@ -18,7 +18,7 @@
 
 @layer components {
   nav {
-    @apply fixed z-10 top-0 left-0 right-0 px-6 h-16 border-b border-border bg-background flex items-center;
+    @apply fixed z-10 top-0 left-0 right-0 px-6 h-16 bg-background flex items-center;
   }
 
   main {

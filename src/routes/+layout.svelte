@@ -6,7 +6,7 @@
 </script>
 
 <Navigation />
-<Main {children} />
+<Main>{@render children()}</Main>
 <Footer />
 
 

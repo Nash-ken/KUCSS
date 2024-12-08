@@ -1,5 +1,19 @@
 <script lang="ts">
     import { base } from "$app/paths";
+  import { onMount } from "svelte";
+
+  type event = {
+    name: string
+  };
+
+  let events: event[] = [];
+
+    onMount(async() => {
+        const response = await fetch('/events.json');
+        events = await response.json();
+    })
+
+    
 </script>
 
 <h1 class="desktop:text-6xl text-5xl font-bold mt-48">Let's build from here</h1>
@@ -14,6 +28,8 @@
     <div class="rounded-xl border border-border p-6 w-full desktop:max-w-96 flex flex-col">
         <h3 class="text-2xl font-medium">Upcoming Events</h3>
         <p class="mt-4 text-text-muted">Join us for our Events covering all things security.</p>
-
+        {#each events as event}
+            <p>{event.name}</p>
+        {/each}
     </div>
 </div>

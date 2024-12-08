@@ -1,14 +1,15 @@
 <script lang="ts">
+    import { base } from "$app/paths";
     import { page } from "$app/stores";
     import Icon from "@iconify/svelte";
 
-    let currentPath: string = $derived($page.url.pathname);
+    let currentPath: string = $derived($page.url.href);
 
     const pages = [
-        {label: "Home", link: '/'},
-        {label: "Events", link: '/Events'},
-        {label: "Learning", link: '/Learning'},
-        {label: "About", link: '/About'},
+        {label: "Home", link: base + '/'},
+        {label: "Events", link: base + '/Events'},
+        {label: "Learning", link: base + '/Learning'},
+        {label: "About", link: base + '/About'},
 
     ]
 

@@ -1,6 +1,12 @@
 <script lang="ts">
-	import '../app.css';
+	import { Navigation, Main, Footer } from "@components";
+	import "../app.css";
+	import "@fontsource-variable/plus-jakarta-sans";
 	let { children } = $props();
 </script>
 
-{@render children()}
+<Navigation />
+<Main {children} />
+<Footer />
+
+

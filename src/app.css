@@ -1,3 +1,31 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  body {
+    @apply bg-background
+    text-text
+    w-full
+    h-screen 
+    overflow-x-hidden 
+    overflow-y-auto
+    font-Jakarta
+    flex
+    flex-col;
+  }
+}
+
+@layer components {
+  nav {
+    @apply sticky top-0 h-12 border-b border-border;
+  }
+
+  main {
+    @apply w-full max-w-screen-desktop mx-auto flex flex-col px-4 desktop:px-0;
+  }
+
+  footer {
+    @apply mt-auto;
+  }
+}

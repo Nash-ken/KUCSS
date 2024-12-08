@@ -9,7 +9,13 @@
         {label: "Events", link: '/Events'},
         {label: "Learning", link: '/Learning'},
         {label: "About", link: '/About'},
+    ]
 
+    const socials = [
+        {icon: "circum:linkedin", link: ""},
+        {icon: "hugeicons:meta", link: ""},
+        {icon: "hugeicons:instagram", link: ""},
+        {icon: "hugeicons:new-twitter", link: ""},
     ]
 
     function isActive(page: string): boolean {
@@ -32,7 +38,14 @@
        {/each}
     </ul>
 
-    <a href="/contacts" class="hidden desktop:flex px-6 py-3 rounded-full bg-primary ml-auto">Contact</a>
+    <ul class="items-center space-x-4 ml-auto hidden desktop:flex">
+        {#each socials as social}
+            <a href={social.link} class="rounded-full p-2 bg-border">
+                <Icon icon={social.icon} width="18" height="18" />
+            </a>
+            
+        {/each}
+    </ul>
 
     <button class="ml-auto desktop:hidden flex">
         <Icon icon="heroicons-outline:menu-alt-4" width="32" height="32" />

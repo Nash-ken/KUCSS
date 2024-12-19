@@ -21,6 +21,8 @@ const config = {
     },
     alias: {
       "@components": path.resolve("src/lib/components"),
+      "@stores": path.resolve("src/lib/stores"),
+      "@types": path.resolve("src/lib/types"),
     },
   },
 };

@@ -13,7 +13,7 @@
 </script>
 
 
-<div class="w-full overflow-hidden flex flex-col">
+<div class="w-full overflow-hidden items-center flex flex-col">
     <pre class="mx-auto">
      ⢰⠄⠀⠀⢷⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⢸⠹⡀⢠⠙⡄⠀⠀⠀⠀⠀⠀
@@ -32,6 +32,7 @@
 ⠘⠥⡊⠩⠑⠊⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
     </pre>
         
-
+<p>{error}</p>
+<p>{message}</p>
 
 </div>

@@ -1,5 +1,23 @@
 [
   {
-    "name": "noel"
+    "name": "Society Launch",
+    "time": "6:00 PM",
+    "date": "2024-12-22",
+    "room": "JG3002",
+    "type": "Seminar"
+  },
+  {
+    "name": "Testing 1",
+    "time": "6:00 PM",
+    "date": "2025-02-08",
+    "room": "JG3002",
+    "type": "Seminar"
+  },
+  {
+    "name": "Test 2",
+    "time": "6:00 PM",
+    "date": "2025-03-08",
+    "room": "JG3002",
+    "type": "Seminar"
   }
 ]

@@ -6,10 +6,10 @@
     let currentPath: string = $derived($page.url.pathname);
 
     const pages = [
-        {label: "Home", link: '/'},
-        {label: "Events", link: '/Events'},
-        {label: "Learning", link: '/Learning'},
-        {label: "About", link: '/About'},
+        {label: "Home", link: `${base}/`},
+        {label: "Events", link: `${base}/Events`},
+        {label: "Learning", link: `${base}/Learning`},
+        {label: "About", link: `${base}/About`},
     ]
 
    
@@ -30,7 +30,7 @@
       
     <ul class="desktop:flex ml-6 space-x-6 items-center hidden">
        {#each pages as anchor}
-            <a href={base + anchor.link} class="font-semibold" class:active={isActive(anchor.link)}>{anchor.label}</a>
+            <a href={anchor.link} class="font-semibold" class:active={isActive(anchor.link)}>{anchor.label}</a>
        {/each}
     </ul>
 

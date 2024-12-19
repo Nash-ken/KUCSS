@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from "$app/paths";
     import { page } from "$app/stores";
     import Icon from "@iconify/svelte";
 
@@ -29,7 +30,7 @@
       
     <ul class="desktop:flex ml-6 space-x-6 items-center hidden">
        {#each pages as anchor}
-            <a href={anchor.link} class="font-semibold" class:active={isActive(anchor.link)}>{anchor.label}</a>
+            <a href={base + anchor.link} class="font-semibold" class:active={isActive(anchor.link)}>{anchor.label}</a>
        {/each}
     </ul>
 

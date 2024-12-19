@@ -1,5 +1,6 @@
 import { writable } from "svelte/store";
 import type { Event } from "@types";
+import { base } from "$app/paths";
 
 export const events = writable<Event[]>([]);
 export const upcoming = writable<Event | null>(null);
@@ -11,7 +12,7 @@ export async function loadEvents() {
 
   const now = new Date();
 
-  const response = await fetch("/Json/events.json");
+  const response = await fetch(`${base}/Json/events.json`);
   const data: Event[] = await response.json();
 
   // Process events: sort and find the upcoming event

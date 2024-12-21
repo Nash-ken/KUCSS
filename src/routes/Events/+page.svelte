@@ -2,11 +2,9 @@
   import { onMount } from "$lib";
   import { Event } from "@components";
   import { events, loadEvents } from "@stores/events";
-
-
+  
   onMount(async() => {
         loadEvents();
-        console.log($events);
     })
 </script>
 <h1 class="text-5xl font-bold mt-12">You're Invited</h1>

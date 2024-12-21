@@ -23,7 +23,7 @@
 </script>
 
 <nav>
-    <div class="flex items-center text-xl font-bold font-geist">
+    <div class="flex items-center text-lg font-bold font-geist">
         <span class="text-text-muted text-lg">./</span>
         <span>KUCSS</span>
     </div>

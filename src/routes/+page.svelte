@@ -14,7 +14,7 @@
     <a href="" class="font-medium px-6 py-3 text-center w-full desktop:w-fit hover:underline">Kingston University &rightarrow;</a>
 </div>
 
-<div class="flex flex-col desktop:flex-row w-full mt-12">
+<div class="flex flex-col desktop:flex-row w-full mt-6">
     <Upcoming />
     <Statistic />
 </div>

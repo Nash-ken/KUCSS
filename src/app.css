@@ -14,6 +14,16 @@
     flex
     flex-col;
   }
+
+  body::-webkit-scrollbar {
+    width: 5px;
+    scrollbar-color: theme(colors.border) transparent;
+    scrollbar-gutter: stable;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: theme(colors.border);
+  }
 }
 
 @layer components {
@@ -27,5 +37,25 @@
 
   footer {
     @apply mt-auto;
+  }
+}
+
+@layer utilities {
+  .custom-scrollbar {
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: theme("colors.primary") transparent; /* For Firefox */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: theme("colors.primary"); /* Primary color for the thumb */
+    border-radius: 9999px; /* Rounded corners for a pill shape */
   }
 }

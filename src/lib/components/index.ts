@@ -11,3 +11,4 @@ export { default as Event } from "./Pages/Events/Event.svelte";
 export { default as Header } from "./Pages/Learning/Header.svelte";
 export { default as Projects } from "./Pages/Learning/Projects.svelte";
 export { default as Courses } from "./Pages/Learning/Courses.svelte";
+export { default as Accordion } from "./Pages/Learning/Accordion.svelte";

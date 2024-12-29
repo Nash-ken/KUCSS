@@ -5,7 +5,7 @@
 
 </script>
 
-<div class="w-full mt-48 relative left-0">
+<div class="w-full mt-48 mb-12 relative left-0">
     <div class="w-full max-w-screen-desktop mx-auto">
         <h1 class="text-lg font-bold px-3 mt-6">Courses</h1>
         <p class="text-text-muted px-3">Online Courses are a great way to learn a particular skillset just from the comfort of your home.</p>

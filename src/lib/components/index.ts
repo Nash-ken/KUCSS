@@ -12,3 +12,6 @@ export { default as Header } from "./Pages/Learning/Header.svelte";
 export { default as Projects } from "./Pages/Learning/Projects.svelte";
 export { default as Courses } from "./Pages/Learning/Courses.svelte";
 export { default as Accordion } from "./Pages/Learning/Accordion.svelte";
+//Pages (About)
+export { default as Objectives } from "./Pages/About/Objectives.svelte";
+export { default as Team } from "./Pages/About/Team.svelte";

@@ -8,8 +8,9 @@
     ];
 </script>
 
-<div class="mt-6 gap-6 grid grid-cols-1 desktop:grid-cols-4 grid-rows-1">
+<div class="flex flex-col gap-3">
+    <h1 class="font-bold">Contact</h1>
     {#each socials as link}
-        <a href="" class="flex items-center gap-2 font-bold px-3 py-3 border border-border rounded-md"><Icon icon={link.icon} height="24" width="24" /> {link.label} <Icon icon="lucide:external-link" width="18" height="18" class="ml-auto" /></a>
+      <a class="text-text-muted flex items-center gap-3" href={link.link}><Icon icon={link.icon} width="20" height="20" /> {link.label}</a>
     {/each}
 </div>

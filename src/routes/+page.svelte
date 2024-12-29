@@ -16,7 +16,7 @@
 
 <div class="flex flex-col desktop:flex-row w-full mt-6">
     <Upcoming />
-    <Statistic />
+    
 </div>
+<Statistic />
 
-<Socials />

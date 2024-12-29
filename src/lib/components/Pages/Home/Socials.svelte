@@ -1,10 +1,10 @@
 <script lang="ts">
     import { Icon } from "$lib";
         const socials = [
-        {icon: "circum:linkedin", label: "LinkedIn", link: ""},
-        {icon: "hugeicons:meta", label: "Facebook", link: ""},
-        {icon: "hugeicons:instagram", label: "Instagram", link: ""},
-        {icon: "hugeicons:new-twitter", label: "Twitter", link: ""},
+        {icon: "circum:linkedin", label: "LinkedIn", link: "https://www.linkedin.com/company/kucybersec/"},
+        {icon: "hugeicons:meta", label: "Facebook", link: "https://www.facebook.com/KUcybersociety"},
+        {icon: "hugeicons:instagram", label: "Instagram", link: "https://www.instagram.com/kucybersec/"},
+        {icon: "hugeicons:new-twitter", label: "Twitter", link: "https://x.com/KUCyberSec?mx=2"},
     ];
 </script>
 

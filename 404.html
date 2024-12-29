@@ -1,18 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>%sveltekit.error.message%</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Page Not Found</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      pre {
+        font-family: monospace;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        color: #666;
+      }
+      .message {
+        text-align: center;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+    <script>
+      // Redirect after 5 seconds
+      setTimeout(() => {
+        window.location.href = "/";
+      }, 5000);
+    </script>
   </head>
   <body>
-    <h1>My custom error page</h1>
-    <p>Status: %sveltekit.status%</p>
-    <p>Message: %sveltekit.error.message%</p>
+    <div class="container">
+      <pre>
+     ⢰⠄⠀⠀⢷⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢸⠹⡀⢠⠙⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢸⠀⠇⠈⡇⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠘⣸⢰⢰⣀⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢣⢻⣼⣿⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢰⠉⢣⡀⢱⡄⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢸⠂⢸⢿⣞⠿⠆⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢀⠌⡇⠀⠿⢇⠀⡇⠀⠀⠀⠀
+⠀⠀⠀⡠⠊⠀⡐⠀⠀⠀⠀⠀⠩⡢⡀⠀⠀
+⠀⠀⢎⣀⢔⠝⠀⠀⠀⠀⠀⠀⠀⢡⣈⣄⠀
+⠀⢸⡿⠙⡫⠀⠀⠀⠀⠀⠀⠀⠀⢥⢍⣿⠂
+⠀⠈⡤⣲⠣⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠃⠀
+⠀⠀⠰⡀⢆⠀⠀⠀⠀⠀⠀⠀⢀⣌⠀⠀⠀
+⠀⣀⡠⡬⠦⠢⢀⡀⠤⠤⠄⠒⠉⠱⠃⠀⠀
+⠘⠥⡊⠩⠑⠊⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    </pre
+      >
+      <div class="message">
+        <p id="error-code">404</p>
+        <p id="error-message">The page you're looking for doesn't exist.</p>
+      </div>
+    </div>
   </body>
 </html>
-
-<style>
-  body {
-    background-color: black;
-  }
-</style>

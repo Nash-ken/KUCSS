@@ -31,9 +31,11 @@
       }
     </style>
     <script>
+      import { base } from "$app/paths";
+
       // Redirect after 5 seconds
       setTimeout(() => {
-        window.location.pathname = "/";
+        window.location.pathname = base + "/";
       }, 5000);
     </script>
   </head>

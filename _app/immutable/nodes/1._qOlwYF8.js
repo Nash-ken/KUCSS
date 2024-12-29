@@ -1,4 +1,4 @@
-import"../chunks/disclose-version.Bg9kRutz.js";import{p as l,u as f,a as u,s as o,c as g,r as v}from"../chunks/runtime.CFzAozgp.js";import{s as d,a as x,t as _,b as $}from"../chunks/store.C73q3EfU.js";import{p as h}from"../chunks/stores.DqZR9Ql3.js";import{g as b}from"../chunks/entry.Zu_zzcLQ.js";var w=_(`<div class="w-full overflow-hidden items-center flex flex-col"><pre class="mx-auto">
+import{s as l,a as f,t as u,b as g}from"../chunks/disclose-version.pMGtB6cX.js";import{p as v,u as d,a as x,s as o,c as _,r as $}from"../chunks/runtime.k2v0yTst.js";import{p as h}from"../chunks/stores.BHwMKmNc.js";import{g as b}from"../chunks/entry.Bpm5Pihb.js";var w=u(`<div class="w-full overflow-hidden items-center flex flex-col"><pre class="mx-auto">
      ⢰⠄⠀⠀⢷⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⢸⠹⡀⢠⠙⡄⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⢸⠀⠇⠈⡇⡇⠀⠀⠀⠀⠀⠀
@@ -14,4 +14,4 @@ import"../chunks/disclose-version.Bg9kRutz.js";import{p as l,u as f,a as u,s as 
 ⠀⠀⠰⡀⢆⠀⠀⠀⠀⠀⠀⠀⢀⣌⠀⠀⠀
 ⠀⣀⡠⡬⠦⠢⢀⡀⠤⠤⠄⠒⠉⠱⠃⠀⠀
 ⠘⠥⡊⠩⠑⠊⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-    </pre> <p></p> <p></p></div>`);function q(a,p){var r;l(p,!0);const m=d(),t=()=>$(h,"$page",m),n=t().status,i=(r=t().error)==null?void 0:r.message;f(()=>{setTimeout(()=>{b("/",{replaceState:!0})},5e3)});var e=w(),s=o(g(e),2);s.textContent=n;var c=o(s,2);c.textContent=i,v(e),x(a,e),u()}export{q as component};
+    </pre> <p></p> <p></p></div>`);function k(a,p){var r;v(p,!0);const n=l(),t=()=>g(h,"$page",n),m=t().status,c=(r=t().error)==null?void 0:r.message;d(()=>{setTimeout(()=>{b("/",{replaceState:!0})},5e3)});var e=w(),s=o(_(e),2);s.textContent=m;var i=o(s,2);i.textContent=c,$(e),f(a,e),x()}export{k as component};

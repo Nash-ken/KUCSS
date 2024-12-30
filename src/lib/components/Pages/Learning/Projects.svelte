@@ -44,7 +44,7 @@
          aria-labelledby="overlay-title"
          aria-modal="true" 
          transition:fade={{duration: 150}}>
-         <div class="sticky top-20 border border-border rounded-lg w-96 h-fit bg-primary p-6" transition:fly={{y:-20, duration: 300}}>
+         <div class="sticky mx-auto top-20 border border-border rounded-lg w-96 h-fit bg-primary p-6" transition:fly={{y:-20, duration: 300}}>
              <!-- Overlay content -->
              <button class="flex items-center gap-1.5" onclick={() => toggleOverlay()}> <Icon icon="lucide:arrow-left" /> Back</button>
              <h2 class="mt-3 font-bold" id="overlay-title">{overlayData.title}</h2>

@@ -1,6 +1,6 @@
 <script lang="ts">
-    import { base, Icon } from "$lib";
-    import { Upcoming, Statistic, Socials } from "@components";
+    import { Icon } from "$lib";
+    import { Upcoming, Statistic } from "@components";
 </script>
 
 <h1 class="desktop:text-6xl text-5xl font-bold mt-32">Let's build from here</h1>
@@ -16,7 +16,6 @@
 
 <div class="flex flex-col desktop:flex-row w-full mt-6">
     <Upcoming />
-    
 </div>
 <Statistic />
 

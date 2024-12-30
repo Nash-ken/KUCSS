@@ -31,7 +31,7 @@
 
 <h2 class="text-lg font-bold mt-12 mx-auto">Meet our Team</h2>
 
-<div class="mt-6 gap-6 grid grid-cols-1 desktop:grid-cols-3">
+<div class="mt-6 mb-12 gap-6 grid grid-cols-1 desktop:grid-cols-3">
     {#each team as member}
         <div class="flex justify-between items-center border-border border rounded-lg p-3">
             <h1>{member.name}</h1>
